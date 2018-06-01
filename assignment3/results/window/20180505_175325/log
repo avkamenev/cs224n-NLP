@@ -1,0 +1,6 @@
+2018-05-05 17:53:35,358:INFO: Building model...
+2018-05-05 17:53:36,601:WARNING: From /Users/andrey/python_envs/cs224_nlp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+2018-05-05 17:53:38,426:INFO: took 3.07 seconds
+2018-05-05 17:53:39,897:INFO: Epoch 1 out of 10

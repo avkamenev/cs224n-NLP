@@ -1,0 +1,52 @@
+2018-05-06 11:30:42,082:INFO: Building model...
+2018-05-06 11:30:43,339:WARNING: From /Users/andrey/python_envs/cs224_nlp/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+2018-05-06 11:31:09,459:INFO: took 27.38 seconds
+2018-05-06 11:31:11,011:INFO: Epoch 1 out of 10
+2018-05-06 11:31:26,852:INFO: Evaluating on development data
+2018-05-06 11:31:28,313:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	2694.00 	165.00  	79.00   	10.00   	201.00  
+ORG     	424.00  	946.00  	269.00  	105.00  	348.00  
+LOC     	139.00  	183.00  	1473.00 	110.00  	189.00  
+MISC    	117.00  	207.00  	118.00  	612.00  	214.00  
+O       	111.00  	141.00  	48.00   	25.00   	42434.00
+
+2018-05-06 11:31:28,316:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.98 	0.77 	0.86 	0.81 
+ORG  	0.96 	0.58 	0.45 	0.51 
+LOC  	0.98 	0.74 	0.70 	0.72 
+MISC 	0.98 	0.71 	0.48 	0.57 
+O    	0.98 	0.98 	0.99 	0.99 
+micro	0.98 	0.94 	0.94 	0.94 
+macro	0.98 	0.76 	0.70 	0.72 
+not-O	0.98 	0.72 	0.67 	0.69 
+
+2018-05-06 11:31:28,316:INFO: Entity level P/R/F1: 0.60/0.62/0.61
+2018-05-06 11:31:28,317:INFO: New best score! Saving model in results/window/20180506_113032/model.weights
+2018-05-06 11:31:28,440:INFO: Epoch 2 out of 10
+2018-05-06 11:31:32,255:INFO: Evaluating on development data
+2018-05-06 11:31:33,774:DEBUG: Token-level confusion matrix:
+go\gu   	PER     	ORG     	LOC     	MISC    	O       
+PER     	2869.00 	85.00   	61.00   	7.00    	127.00  
+ORG     	390.00  	1174.00 	208.00  	85.00   	235.00  
+LOC     	142.00  	132.00  	1652.00 	67.00   	101.00  
+MISC    	95.00   	171.00  	109.00  	734.00  	159.00  
+O       	98.00   	98.00   	36.00   	33.00   	42494.00
+
+2018-05-06 11:31:33,779:DEBUG: Token-level scores:
+label	acc  	prec 	rec  	f1   
+PER  	0.98 	0.80 	0.91 	0.85 
+ORG  	0.97 	0.71 	0.56 	0.63 
+LOC  	0.98 	0.80 	0.79 	0.79 
+MISC 	0.99 	0.79 	0.58 	0.67 
+O    	0.98 	0.99 	0.99 	0.99 
+micro	0.98 	0.95 	0.95 	0.95 
+macro	0.98 	0.82 	0.77 	0.79 
+not-O	0.98 	0.78 	0.75 	0.76 
+
+2018-05-06 11:31:33,779:INFO: Entity level P/R/F1: 0.67/0.72/0.69
+2018-05-06 11:31:33,780:INFO: New best score! Saving model in results/window/20180506_113032/model.weights
+2018-05-06 11:31:33,946:INFO: Epoch 3 out of 10
